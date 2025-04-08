@@ -1,10 +1,27 @@
-*,
-*::before,
-*::after {
+body {
   box-sizing: border-box;
-  margin: 0;
+  font-family: sans-serif;
 }
 
-html {
-  font-size: 6.25%;
+#login-container {
+  width: 460px;
+  margin: 0 auto;
+}
+
+form label,
+form input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form input {
+  padding: 8px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form div {
+  margin: 16px 0px;
 }
