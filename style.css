@@ -25,3 +25,32 @@ form label {
 form div {
   margin: 16px 0px;
 }
+
+form div {
+  position: relative;
+}
+
+form span {
+  position: absolute;
+  right: 10px;
+  margin-top: 9px;
+}
+
+input.valid {
+  border: 2px solid green;
+}
+
+input.invalid {
+  border: 2px solid red;
+}
+
+#messages {
+  margin-top: 10px;
+}
+
+#messages p {
+  font-size: 14px;
+  color: brown;
+  margin: 4px 0 0 0;
+  padding-left: 4px;
+}
